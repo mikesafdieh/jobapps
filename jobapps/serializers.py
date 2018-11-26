@@ -7,5 +7,5 @@ class JobAppSerializer(serializers.ModelSerializer):
 
 	class Meta:
 		model = JobApp
-		fields = ('title', 'company', 'description', 'date_applied',)
+		fields = ('id', 'title', 'company', 'description', 'date_applied',)
 
